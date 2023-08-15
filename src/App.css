@@ -2,6 +2,8 @@ nav {
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px;
   gap: 10px;
   background-color: #e26;
   border-bottom: 1px solid #e43a73;
