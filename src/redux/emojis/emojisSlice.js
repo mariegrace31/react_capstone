@@ -12,6 +12,8 @@ export const fetchEmojiAsync = createAsyncThunk('emoji/fetchEmojis', async (_, t
         name: dItem.name,
         category: dItem.category,
         group: dItem.group,
+        code: dItem.htmlCode[0],
+        unicode: dItem.unicode[0],
       };
       emojiData.push(newEmoji);
       return null;
