@@ -1,11 +1,36 @@
-import React, { useEffect, useState } from 'react';
-// import { useSelector, useDispatch } from 'react-redux';
-// import { fetchEmojiAsync } from '../redux/emojis/emojisSlice';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchEmojiAsync } from '../redux/emojis/emojisSlice';
+import Emoji from '../components/Emoji';
 
-const HomePage = () => (
-  <div>
-    <p>This is the home page</p>
-  </div>
-);
+function HomePage() {
+  const { data, loading, error } = useSelector((state) => state.emoji);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchEmojiAsync());
+  }, [dispatch]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return (
+      <div>
+        Error:
+        {error}
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      {data.map((emoji) => (
+        <Emoji key={emoji.name} emoji={emoji} />
+      ))}
+    </div>
+  );
+}
 
 export default HomePage;

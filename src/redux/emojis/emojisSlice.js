@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const url = 'https://emojihub.yurace.pro/api/all';
@@ -24,26 +24,32 @@ export const fetchEmojiAsync = createAsyncThunk('emoji/fetchEmojis', async (_, t
   }
 });
 
-export const emojiSlice = createSlice ({
+const initialState = {
+  data: [],
+  loading: false,
+  error: null,
+};
+
+export const emojiSlice = createSlice({
   name: 'emoji',
   initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
-    .addCase(fetchEmojiAsync.pending, (state) => ({
-      ...state,
-      loading: true,
-    }))
-    .addCase(fetchEmojiAsync.fulfilled, (state, action) => ({
-      ...state,
-      loading: false,
-      data: action.payload,
-    }))
-    .addCase(fetchEmojiAsync.rejected, (state, action) => ({
-      ...state,
-      loading: false,
-      error:action.error.message,
-    }));
+      .addCase(fetchEmojiAsync.pending, (state) => ({
+        ...state,
+        loading: true,
+      }))
+      .addCase(fetchEmojiAsync.fulfilled, (state, action) => ({
+        ...state,
+        loading: false,
+        data: action.payload,
+      }))
+      .addCase(fetchEmojiAsync.rejected, (state, action) => ({
+        ...state,
+        loading: false,
+        error: action.error.message,
+      }));
   },
 });
 

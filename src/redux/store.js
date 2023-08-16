@@ -1,7 +1,7 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from '@reduxjs/toolkit';
 import emojiReducer from './emojis/emojisSlice';
 
-const store = configureStore ({
+const store = configureStore({
   reducer: {
     emoji: emojiReducer,
   },
