@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { getNearestCityData } from 'redux/home/homeSlice';
+import Layout from './components/Layout';
+import Home from './routes/Home';
+import Details from './routes/Details';
+import NotMatch from './routes/NotMatch';
 import './App.css';
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getNearestCityData());
+  }, [dispatch]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code>src/App.js</code>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="details" element={<Details />} />
+          <Route path="*" element={<NotMatch />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
