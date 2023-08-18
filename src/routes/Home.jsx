@@ -1,10 +1,10 @@
-import NearestCity from 'components/NearestCity';
-import OtherCitiesList from 'components/OtherCitiesList';
-// import SelectedCity from 'components/SelectedCity';
-import SearchBar from 'components/SearchBar';
-import Footer from 'components/Footer';
-import { getData } from 'redux/home/homeSlice';
 import { useSelector } from 'react-redux';
+import NearestCity from '../components/NearestCity';
+import OtherCitiesList from '../components/OtherCitiesList';
+// import SelectedCity from 'components/SelectedCity';
+import SearchBar from '../components/SearchBar';
+import Footer from '../components/Footer';
+import { getData } from '../redux/home/homeSlice';
 
 const Home = () => {
   const {

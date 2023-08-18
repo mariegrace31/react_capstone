@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import waterDrop from 'assets/icons/drop.png';
+import waterDrop from '../assets/icons/drop.png';
 
 const NearestCity = ({
   city, selectedCity, isLoading, error,

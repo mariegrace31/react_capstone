@@ -1,5 +1,5 @@
-import DetailsPage from 'components/DetailsPage';
-import Footer from 'components/Footer';
+import DetailsPage from '../components/DetailsPage';
+import Footer from '../components/Footer';
 
 const Details = () => (
   <>

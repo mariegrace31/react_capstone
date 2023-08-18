@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { AiOutlineHome } from 'react-icons/ai';
-import logo from 'assets/icons/logo.png';
+import logo from '../assets/icons/logo.png';
 
 const NavBar = () => (
   <nav>
