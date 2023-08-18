@@ -2,8 +2,8 @@ import { NavLink } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import { BsArrowBarDown } from 'react-icons/bs';
 import { useDispatch, useSelector } from 'react-redux';
-import { getSelectedCity, getData, getSelectedCityData } from 'redux/home/homeSlice';
 import { useEffect, useState } from 'react';
+import { getSelectedCity, getData, getSelectedCityData } from '../redux/home/homeSlice';
 
 const SearchBar = () => {
   const [inputValue, setInputValue] = useState('');

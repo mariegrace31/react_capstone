@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { BsArrowLeftCircle } from 'react-icons/bs';
-import waterDrop from './assets/icons/drop.png';
-import { getData } from './redux/home/homeSlice';
+import waterDrop from '../assets/icons/drop.png';
+import { getData } from '../redux/home/homeSlice';
 
 const DetailsPage = () => {
   const { clickedCity } = useSelector(getData);
