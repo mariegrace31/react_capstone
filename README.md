@@ -113,6 +113,8 @@ $ npm start
 ## **Future features**<a name="Future-fetures"></a>
 -Feature 1: deploy my app
 
+VIDEO RECORDING:https://www.loom.com/share/2221bc4c38d14d5cacbb2c09afe98e56?sid=c1da20ce-4cf0-4064-b19b-6a2e4815635a
+
 <!-- AUTHORS -->
 ## **Authors 👤**<a name="author"></a>:
 **Author 1**
