@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -29,6 +35,7 @@ ul li a {
       padding: 5px;
       border-radius: 5px;
       width: 100%;
+      border: 1px solid #b8b7b7;
     }
 
     ul.options-list {
@@ -46,7 +53,7 @@ ul li a {
       border-radius: 5px;
 
       a {
-        color: #212a3e;
+        color: #fff;
       }
     }
 
@@ -58,6 +65,7 @@ ul li a {
 
     input::placeholder {
       padding: 5px;
+      color: #b9b9b9;
     }
   }
 
@@ -69,7 +77,7 @@ ul li a {
     padding-bottom: 20px;
     justify-content: center;
     align-items: center;
-    color: #212a3e;
+    color: #fff;
 
     .lds-ripple {
       display: inline-block;
@@ -80,7 +88,7 @@ ul li a {
 
     .lds-ripple div {
       position: absolute;
-      border: 4px solid #212a3e;
+      border: 4px solid #fff;
       opacity: 1;
       border-radius: 50%;
       animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
@@ -91,14 +99,7 @@ ul li a {
     }
 
     @keyframes lds-ripple {
-      0% {
-        top: 36px;
-        left: 36px;
-        width: 0;
-        height: 0;
-        opacity: 0;
-      }
-
+      0%,
       4.9% {
         top: 36px;
         left: 36px;
@@ -189,49 +190,24 @@ ul li a {
         }
       }
 
-      p.Good:nth-child(2) {
-        color: #0c7c0e;
-      }
-
-      p.Good:nth-child(3) {
-        color: #0c7c0e;
-        border: 1px solid #0c7c0e;
-      }
-
-      p.Fair:nth-child(2) {
-        color: #556344;
-      }
-
-      p.Fair:nth-child(3) {
-        color: #556344;
-        border: 1px solid #556344;
-      }
-
+      p.Good:nth-child(2),
       p.Moderate:nth-child(2) {
-        color: #636262;
+        color: #fff;
       }
 
-      p.Moderate:nth-child(3) {
-        color: #636262;
-        border: 1px solid #636262;
-      }
-
-      p.Poor:nth-child(2) {
-        color: #ae4021;
-      }
-
-      p.Poor:nth-child(3) {
-        color: #ae4021;
-        border: 1px solid #ae4021;
-      }
-
-      p.Very:nth-child(2) {
-        color: #c73913;
-      }
-
+      p.Good:nth-child(3),
+      p.Fair:nth-child(3),
+      p.Moderate:nth-child(3),
+      p.Poor:nth-child(3),
       p.Very:nth-child(3) {
-        color: #c73913;
-        border: 1px solid #c73913;
+        color: #fff;
+        border: 1px solid #fff;
+      }
+
+      p.Fair:nth-child(2),
+      p.Poor:nth-child(2),
+      p.Very:nth-child(2) {
+        color: #fff;
       }
     }
   }
@@ -246,13 +222,13 @@ ul li a {
       width: 98%;
       margin: 0 1% 5px 1%;
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-      border: 1px solid #9ba4b5;
+      border: 1px solid #fff;
       border-radius: 5px;
-      color: #212a3e;
+      color: #fff;
       min-height: 250px;
 
       .next-arrow {
-        color: #212a3e;
+        color: #fff;
         margin-left: 80%;
         margin-top: 10px;
       }
@@ -311,15 +287,13 @@ ul li a {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #212a3e;
+    background-color: #f34f85;
     color: #f1f6f9;
     display: flex;
     flex-direction: column;
     gap: 5px;
     justify-content: center;
     align-items: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
 
     p.email {
       color: #fbad95;
@@ -419,11 +393,11 @@ ul li a {
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
       border: 1px solid #9ba4b5;
       border-radius: 5px;
-      color: #212a3e;
+      color: #fff;
       min-height: 250px;
 
       .next-arrow {
-        color: #212a3e;
+        color: #fff;
         margin-left: 80%;
         margin-top: 20px;
       }

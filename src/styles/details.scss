@@ -13,14 +13,14 @@
     padding-bottom: 20px;
     justify-content: center;
     align-items: center;
-    color: #212a3e;
+    color: #fff;
 
     .back-arrow-link {
       margin-left: -70%;
 
       .back-arrow {
         font-size: 1.2rem;
-        color: #212a3e;
+        color: #fff;
       }
     }
 
@@ -80,7 +80,7 @@
         margin-top: 5px;
         width: 90%;
         border-radius: 5px;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px 2px #cccbcb4d;
 
         span.pollutant {
           font-size: 0.8rem;
@@ -88,54 +88,29 @@
       }
 
       p.Good:nth-child(2) {
-        color: #0c7c0e;
+        color: #fff;
       }
 
-      p.Good:nth-child(3) {
-        color: #0c7c0e;
-        border: 1px solid #0c7c0e;
-      }
-
-      p.Fair:nth-child(2) {
-        color: #556344;
-      }
-
-      p.Fair:nth-child(3) {
-        color: #556344;
-        border: 1px solid #556344;
-      }
-
-      p.Moderate:nth-child(2) {
-        color: #636262;
-      }
-
-      p.Moderate:nth-child(3) {
-        color: #636262;
-        border: 1px solid #636262;
-      }
-
-      p.Poor:nth-child(2) {
-        color: #ae4021;
-      }
-
+      p.Good:nth-child(3),
+      p.Fair:nth-child(3),
+      p.Moderate:nth-child(3),
+      p.Very:nth-child(3),
       p.Poor:nth-child(3) {
-        color: #ae4021;
-        border: 1px solid #ae4021;
+        color: #fff;
+        border: 1px solid #fff;
       }
 
+      p.Fair:nth-child(2),
+      p.Moderate:nth-child(2),
+      p.Poor:nth-child(2),
       p.Very:nth-child(2) {
-        color: #c73913;
-      }
-
-      p.Very:nth-child(3) {
-        color: #c73913;
-        border: 1px solid #c73913;
+        color: #fff;
       }
     }
   }
 
   div.other-pollutants {
-    color: #212a3e;
+    color: #fff;
     padding-bottom: 150px;
 
     h2 {
@@ -145,8 +120,8 @@
       justify-content: center;
       margin-bottom: 10px;
       color: #f1f6f9;
-      background-color: #212a3e;
-      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      background-color: rgb(199, 37, 99);
+      box-shadow: 2px 2px 2px #acaaaa4d;
       height: 30px;
     }
 
@@ -154,7 +129,7 @@
       margin-bottom: 10px;
       font-size: 0.9rem;
       font-weight: bold;
-      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 2px 2px 2px #e0dddd4d;
       padding: 5px 5% 5px 5%;
     }
   }
