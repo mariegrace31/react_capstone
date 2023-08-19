@@ -115,7 +115,7 @@ $ npm start
 
 ---
 <!-- Live demo -->
-VIDEO RECORDING: [Here](https://www.loom.com/share/2221bc4c38d14d5cacbb2c09afe98e56?sid=c1da20ce-4cf0-4064-b19b-6a2e4815635a) is the link to my video recirding.
+VIDEO RECORDING: [Here](https://www.loom.com/share/f3ba5e52bafd4004af333a5a1dcc3c89?sid=1d2fb7ac-b2c8-41e6-821a-0066bc310396) is the link to my video recirding.
 LIVE DEMO: [Click this link](https://myreactcapstone.netlify.app/) to see the demo of my app.
 
 ---
