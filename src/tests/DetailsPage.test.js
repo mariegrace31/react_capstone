@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
-import DetailsPage from 'components/DetailsPage';
+import DetailsPage from '../components/DetailsPage';
 import data from './data';
 
 const reducer = (

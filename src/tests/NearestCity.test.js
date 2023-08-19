@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
-import store from 'redux/store';
-import NearestCity from 'components/NearestCity';
+import store from '../redux/store';
+import NearestCity from '../components/NearestCity';
 
 const AllTheProviders = ({ children }) => (
   <Provider store={store}>
