@@ -1,0 +1,61 @@
+@media only screen and (min-width: 220px) {
+  nav {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    background-color: #f34f85;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5%;
+
+    img {
+      width: 50%;
+      margin-left: 2%;
+    }
+
+    .home-icon {
+      color: #f1f6f9;
+      width: 25px;
+      height: 25px;
+      box-shadow: 2px 2px 2px #f1f6f9;
+      border: 1px solid #f1f6f9;
+      border-radius: 3px;
+    }
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  nav {
+    img {
+      width: 30%;
+      margin-left: 2%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    img {
+      width: 25%;
+      margin-left: 2%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    img {
+      width: 20%;
+      margin-left: 5%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  nav {
+    img {
+      width: 12%;
+      margin-left: 5%;
+    }
+  }
+}

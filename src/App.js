@@ -6,6 +6,9 @@ import Layout from './components/Layout';
 import Home from './routes/Home';
 import Details from './routes/Details';
 import NotMatch from './routes/NotMatch';
+import './styles/home.scss';
+import './styles/navbar.scss';
+import './styles/details.scss';
 import './App.css';
 
 function App() {
