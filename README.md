@@ -113,9 +113,12 @@ $ npm start
 ## **Future features**<a name="Future-fetures"></a>
 -Feature 1: deploy my app
 
-VIDEO RECORDING:https://www.loom.com/share/2221bc4c38d14d5cacbb2c09afe98e56?sid=c1da20ce-4cf0-4064-b19b-6a2e4815635a
-LIVE DEMO: https://myreactcapstone.netlify.app/
+---
+<!-- Live demo -->
+VIDEO RECORDING: [Here](https://www.loom.com/share/2221bc4c38d14d5cacbb2c09afe98e56?sid=c1da20ce-4cf0-4064-b19b-6a2e4815635a) is the link to my video recirding.
+LIVE DEMO: [Click this link](https://myreactcapstone.netlify.app/) to see the demo of my app.
 
+---
 <!-- AUTHORS -->
 ## **Authors 👤**<a name="author"></a>:
 **Author 1**
@@ -161,7 +164,7 @@ Thank you for taking the time to explore my GitHub project! Your support means a
 <!-- ACKNOWLEDGEMENTS -->
 ## **Acknowledgments 🙏**<a name="acknowledgements"></a>
 
-I would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support, and feedbacks have played an immense role in making this journey a resounding success. Thank you for being an integral part of our achievements.
+I would like to express our sincere gratitude to [Microverse](https://github.com/microverseinc), the dedicated reviewers, and collaborators. Your unwavering support, and feedbacks have played an immense role in making this journey a resounding success. Thank you for being an integral part of my achievements.And many thanks for [Neslson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
