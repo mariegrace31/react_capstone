@@ -110,13 +110,12 @@ $ npm start
 
 ---
 <!-- Future features -->
-## **Future features**<a name="Future-fetures"></a>
--Feature 1: deploy my app
+## **Future features**<a name="Future-features"></a>
+-Feature 1: Add parameters
 
 ---
 <!-- Live demo -->
-VIDEO RECORDING: [Here](https://www.loom.com/share/f3ba5e52bafd4004af333a5a1dcc3c89?sid=1d2fb7ac-b2c8-41e6-821a-0066bc310396) is the link to my video recirding.
-LIVE DEMO: [Click this link](https://myreactcapstone.netlify.app/) to see the demo of my app.
+LIVE DEMO🚀: [Click this link](https://airpollution1.netlify.app/) to see the demo of my app.
 
 ---
 <!-- AUTHORS -->
